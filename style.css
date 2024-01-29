@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    background-color:  yellow;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 2.5px;
+    border: black;
+    font-size: large;
+}
+
+#btn0 {
+    border-radius: 20px 20px 20px 20px;
+    width: 108px;
+    height: 45px;
+}
+
+.greyBtn {
+    background-color: lightgray;
+}
+
+.rows {
+    margin-top: 10rem;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.darkGreyBtn {
+    background-color: #607274;
+    color: white;
+}
+
+.yellowBtn {
+    background-color: orange;
+    color: white;
+}
+
+#inputbox {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 1rem;
+    text-align: right;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
